@@ -1,0 +1,46 @@
+#vBox {
+    -fx-border-radius: 4;
+    -fx-border-size: 1;
+    -fx-border-color: rgba(153, 0, 255, 0.2);
+    -fx-background-color: rgb(27, 27, 27);
+}
+#titleLabel {
+    -fx-text-fill: white;
+}
+#anchorPaneBorder {
+    -fx-background-color: rgba(0, 0, 0, 0.01);
+}
+#closeButton {
+    -fx-background-radius: 5em;
+    -fx-min-width: 16px;
+    -fx-min-height: 16px;
+    -fx-max-width: 16px;
+    -fx-max-height: 16px;
+    -fx-background-color: rgba(153, 0, 255, 0.66);
+}
+#sendButton {
+    -fx-background-radius: 5em;
+    -fx-min-width: 27px;
+    -fx-min-height: 27px;
+    -fx-max-width: 27px;
+    -fx-max-height: 27px;
+    -fx-background-color: rgba(153, 0, 255, 0.66);
+}
+#textArea {
+    -fx-background-color: rgb(36, 36, 36);
+    -fx-border-color: rgba(153, 0, 255, 0.2);
+    -fx-border-radius: 4;
+    -fx-text-fill: white;
+}
+#textArea .content {
+    -fx-background-radius: 0;
+    -fx-background-color: rgb(36, 36, 36);
+}
+#textField {
+    -fx-background-color: rgb(36, 36, 36);
+    -fx-background-insets: 0;
+    -fx-border-size: 1;
+    -fx-border-radius: 4;
+    -fx-border-color: rgba(153, 0, 255, 0.2);
+    -fx-text-fill: white;
+}

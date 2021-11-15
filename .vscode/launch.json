@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch",
+            "request": "launch",
+            "vmArgs": "--module-path lib/javafx-sdk-17.0.1-win/lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.web",
+            "mainClass": "com.messenger.Main"
+        }
+    ]
+}
